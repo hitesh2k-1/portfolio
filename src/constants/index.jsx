@@ -48,8 +48,24 @@ export const PROJECTS = [
     image: projectImage2,
     Link: "https://portfolio-hitesh-singh-kanwal.netlify.app/",
   },
+
   {
     id: 2,
+    name: "Spotify clone",
+    description:
+"A Basic Spotify clone that replicates core functionality such as music streaming , which also allows user to change songs , control volume.",
+    image: projectImage3,
+    Link: "https://spotifybyhiteshsinghkanwal.freewebhostmost.com/",
+  },
+  {
+    id: 3,
+    name: "Nextjs App FrontEnd",
+    description:"Developed a responsive web application using Next.js, Tailwind CSS that adapts seamlessly across various device sizes using Tailwind CSS for styling and Next.js for server-side rendering and routing.",
+    image: projectImage1,
+    Link: "https://nextjs-assignment-app.netlify.app/",
+  },
+  {
+    id: 4,
     name: "Password Manager",
     description:
 "Developed a secure password manager application that allows users to store and manage their passwords in an encrypted database. Created a user-friendly interface using React.js,allowing users to easily add, edit, and delete password entries",
@@ -58,16 +74,7 @@ export const PROJECTS = [
   },
   
   {
-    id: 3,
-    name: "Spotify clone",
-    description:
-"A Basic Spotify clone that replicates core functionality such as music streaming , which also allows user to change songs , control volume.",
-    image: projectImage3,
-    Link: "https://spotifybyhiteshsinghkanwal.freewebhostmost.com/",
-  },
-  
-  {
-    id: 4,
+    id: 5,
     name: "Firebase contact app",
     description:
 "Created a contact manager application that allows users to store and manage their contact details in a database. Created a user-friendly interface using React.js, firebase ,allowing users to easily add, edit, and delete contacts",
@@ -75,7 +82,7 @@ export const PROJECTS = [
     Link: "https://save-contacts-firebase-app.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     name: "Dice Game",
     description:
 "An interactive dice game where users can roll virtual dice and compete to reach a certain score.",
