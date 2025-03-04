@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS } from "../constants";
 import {MdArrowOutward} from "react-icons/md";
 

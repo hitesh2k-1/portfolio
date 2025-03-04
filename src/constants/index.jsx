@@ -19,10 +19,10 @@ import projectImage5 from "../assets/project5.jpeg";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiExpress, SiMongodb, SiMongoose, SiNetlify, SiPostman, SiRedux } from "react-icons/si";
+import { SiExpress, SiMongodb, SiMongoose, SiSanity, SiPostman, SiRedux } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { VscVscode } from "react-icons/vsc";
+import { RiSupabaseFill } from "react-icons/ri";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -48,29 +48,28 @@ export const PROJECTS = [
     image: projectImage2,
     Link: "https://portfolio-hitesh-singh-kanwal.netlify.app/",
   },
-
   {
     id: 2,
-    name: "Spotify clone",
-    description:
-"A Basic Spotify clone that replicates core functionality such as music streaming , which also allows user to change songs , control volume.",
+    name: "E-Commerce App",
+    description:"Developed a comprehensive e-commerce application with features like product listing, shopping cart, user authentication, and secure payment integration.",
     image: projectImage3,
-    Link: "https://spotifybyhiteshsinghkanwal.freewebhostmost.com/",
+    Link: "https://e-commerce-ten-sandy-59.vercel.app/",
   },
+
   {
     id: 3,
-    name: "Nextjs App FrontEnd",
-    description:"Developed a responsive web application using Next.js, Tailwind CSS that adapts seamlessly across various device sizes using Tailwind CSS for styling and Next.js for server-side rendering and routing.",
+    name: "Nextjs App",
+    description:"Developed a responsive web application using Next.js, Tailwind CSS and Sanityio that adapts seamlessly across various device sizes using Tailwind CSS for styling and Next.js for server-side rendering and routing. It also have a blog page where admin can post , edit and delete blogs with the help of Sanity.",
     image: projectImage1,
-    Link: "https://nextjs-assignment-app.netlify.app/",
+    Link: "https://digital-marketing-wmsr.vercel.app/",
   },
   {
     id: 4,
-    name: "Password Manager",
+    name: "Spotify clone",
     description:
-"Developed a secure password manager application that allows users to store and manage their passwords in an encrypted database. Created a user-friendly interface using React.js,allowing users to easily add, edit, and delete password entries",
+"A Basic Spotify clone that replicates core functionality such as music streaming , which also allows user to change songs , control volume.",
     image: projectImage1,
-    Link: "https://password-manager-by-hitesh.netlify",
+    Link: "https://github.com/hitesh2k-1/spotify-clone",
   },
   
   {
@@ -162,8 +161,12 @@ export const SKILLS = [
     name: "Git Hub",
   },
   {
-    icon: <SiNetlify    className="text-4xl text-cyan-700 lg:text-5xl" />,
-    name: "Netlify",
+    icon: <SiSanity    className="text-4xl text-cyan-700 lg:text-5xl" />,
+    name: "Sanity",
+  },
+  {
+    icon: <RiSupabaseFill    className="text-4xl text-green-700 lg:text-5xl" />,
+    name: "Supabase",
   },
 
 ];

@@ -1,4 +1,3 @@
-import React from "react";
 import {HERO} from "../constants"
 import hiteshImg from "../assets/4.jpg"
 

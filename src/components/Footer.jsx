@@ -1,5 +1,4 @@
-import React from 'react'
-import resume from "../assets/Hitesh_Singh_Kanwal_Resume.PDF.pdf"
+import resume from "../assets/Hitesh_Software_engineer.pdf"
 import { SOCIAL_MEDIA_LINKS } from '../constants'
 
 const Footer = () => {
